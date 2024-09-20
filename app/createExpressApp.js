@@ -32,8 +32,6 @@ module.exports = (options, swaggerOptions, database, logger) => {
     
     app.use(bodyParser.urlencoded({ extended: true }))
         .use(bodyParser.json())
-        // TODO: public si o public no?
-        .use(express.static('./public'))
         .use(async (req, res, next) => {
             logger.debug(`${req.method} request to ${req.url}`);
             req.base = `${req.protocol}://${req.get('host')}`;
