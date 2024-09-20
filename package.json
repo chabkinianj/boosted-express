@@ -1,0 +1,16 @@
+{
+  "name": "boosted-express",
+  "version": "1.0.0",
+  "description": "This package simplifies API development by providing an Express server with automatic route inference based on your folder structure. It promotes SOLID principles, integrates Swagger for documentation, Bunyan Logger for logging, and Mongoose for easy access to MongoDB schemas.",
+  "main": "boosted-express.js",
+  "author": "chabkinianj",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "1.8.15",
+    "express": "4.20.0",
+    "glob": "7.1.6",
+    "mongoose": "5.13.22",
+    "swagger-jsdoc": "4.0.0",
+    "swagger-ui-express": "4.6.3"
+  }
+}

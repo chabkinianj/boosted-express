@@ -1,0 +1,15 @@
+{
+  "name": "boosted-express-samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chabkinianj",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "1.8.15",
+    "mongoose": "8.6.2"
+  }
+}
